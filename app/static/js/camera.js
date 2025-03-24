@@ -1,32 +1,3 @@
-let cameraStream = null;
-
-function toggleCamera() {
-  const cameraFeed = document.getElementById("cameraFeed");
-
-  if (!cameraStream) {
-    // Request access to the webcam
-    navigator.mediaDevices
-      .getUserMedia({ video: true })
-      .then((stream) => {
-        cameraStream = stream;
-        cameraFeed.srcObject = stream;
-
-        cameraFeed.style.display = "block";
-        cameraFeed.style.visibility = "visible";
-
-
-      })
-      .catch((err) => {
-        console.error("Error accessing the camera:", err);
-        alert("Camera access failed: " + err.message);
-      });
-  } else {
-    cameraStream.getTracks().forEach((track) => track.stop());
-    cameraStream = null;
-    cameraFeed.srcObject = null;
-
-    cameraFeed.style.display = "none";
-    cameraFeed.style.visibility = "hidden";
-
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:164514120aba96748711dd9fd5e81942e158c5e6b9d13062bf0041d3b8e3e306
+size 808
