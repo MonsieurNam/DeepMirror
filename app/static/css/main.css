@@ -1,0 +1,231 @@
+.app {
+    height: 100vh;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers the navigation */
+    position: relative; /* Ensures absolute positioning for children */
+    padding: 1rem 2rem;
+    height: 10%;
+    min-height: 10%;
+    width: 100%;
+}
+
+.header__logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80px; /* Adjust size */
+    height: 80px; /* Adjust size */
+    background-image: url("../static/images/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: scale(1);
+    margin: 5px;
+}
+
+
+
+.header__logo-link {
+    display: inline-flex;
+    border-radius: 10px;
+    height: 40%;
+    width: 40%;
+
+    justify-content: center;
+    align-items: center;
+
+    color: var(--text-color);
+    font-size: 1.6rem;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header__nav {
+    display: flex;
+    min-height: 50%;
+    height: 50%;
+    width: 30%;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+    position: relative; /* Keeps it in normal flow */
+}
+
+.header__nav-link {
+    display: inline-flex;
+    border-radius: 10px;
+    min-height: 50%;
+
+    height: 90%;
+    width: 40%;
+
+    justify-content: center;
+    align-items: center;
+
+    color: var(--text-color);
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header__nav-link:hover{
+    background-image: var(--active-color) !important;
+    color: var(--white-color);
+    transform: scale(0.95)
+}
+
+/* Add */
+.overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    width: 100%;
+    height: 40vh; /* Show 40% of the image height */
+    object-fit: cover; /* Ensures the image is cropped */
+}
+
+/* Button Styles */
+.btn-primary {
+    padding: 10px 24px;
+    border: 2px solid #fd8ba8;
+    color: #fd8ba8;
+    background: transparent;
+    transition: 0.3s ease-in-out;
+}
+
+.btn-primary:hover {
+    background: #fd8ba8;
+    border: 2px solid #c76bc5;
+    color: white;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .overlay h1 {
+        font-size: 2.5rem;
+    }
+}
+
+#services, #features {
+    padding: 100px 0 75px;
+  }
+  .media.service-box {
+    margin: 25px 0 36px;
+    padding: 20px;
+    padding-left: 86px;
+    position: relative;
+    background: #FFFFFF;
+    border-radius: 0 0 20px 0;
+    border: #fd8ba8 2px solid;
+  }
+  .media.service-box .pull-left {
+    margin-right: 20px;
+  }
+  .media.service-box .pull-left > i {
+    font-size: 35px;
+    /* height: 94px; */
+    line-height: 53px;
+    text-align: center;
+    width: 79px; 
+    color: #c76bc5;
+    /* background:#fff; */
+    /* box-shadow: inset 0 0 0 1px #d7d7d7; */
+    /* -webkit-box-shadow: inset 0 0 0 1px #d7d7d7; */
+    transition: background-color 400ms, background-color 400ms;
+    position: absolute;
+    padding: 14px;
+    /* height: 100%; */
+    left: -13px;
+    top: -15px;
+    vertical-align: middle;
+    background: #fd8ba8;
+    border-radius: 10% 20%;
+    height: 80px;
+    border: 6px #fff solid;
+  }
+  .features .media.service-box .pull-left > i{
+  color: #FFE3D2;
+  font-size: 30px;
+  padding-top: 10px;
+  }
+  /* .media.service-box:hover .pull-left > i {  
+  } */
+
+/* end add */
+
+.content {
+    display: flex;
+    height: 70%;
+    width: 60%;
+    align-self: center;
+
+    flex-direction: column;
+    align-items: center;
+
+    gap: 5%;
+}
+
+.user__camera {
+    position: relative;
+    display: flex;
+    height: 70%;
+    width: 80%;
+    background-color: var(--light-color);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+    flex-shrink: 0;
+}
+
+.user__camera video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+#deepfakeImage {
+    position: absolute; /* Places image over the video */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    display: none; /* Initially hidden */
+    z-index: 2; /* Ensures it's on top of the video */
+}
+
+/* #placeholderImage {
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    display: none; 
+} */
+
+#cameraFeed {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: block;
+    z-index: 1; /* Ensure it's above other elements */
+    overflow: hidden; /* Hide any overflow */
+}

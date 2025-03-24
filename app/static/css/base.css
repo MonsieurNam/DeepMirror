@@ -1,0 +1,33 @@
+:root {
+    --white-color: #FBF2FF;
+    --black-color: #000;
+    --text-color: #6D366C;
+    --primary-color: #F1B1C1;
+    --light-color: #ECDEE6;
+    --active-color: linear-gradient(90deg, #741B72 0%, #C76BC5 100%);
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.;
+    font-family: 'Quicksand', sans-serif !important;
+    box-sizing: border-box;
+}
+
+.grid {
+    width: 1200px;
+    max-width: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
