@@ -1,3 +1,33 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:63868d14a8afcb96fdf344475038d0eff9559eac35ca5bca16601be4a69f9ac5
-size 1465
+<!DOCTYPE html>
+<html lang="en" class="index-con">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DeepMirror</title>
+        <script src="{{ url_for('static', filename='js/upload.js') }}"></script>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">  
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">  
+        <link rel="stylesheet" href="static/css/main.css">
+        <link rel="stylesheet" href="static/css/upload.css">
+        <link rel="stylesheet" href="static/css/base.css">
+    </head>
+<body>
+    <div class="app">
+        <div class="header">
+            <div class="header__logo">
+                <a href="{{url_for('index')}}" class="header__logo-link"> 
+                    <img src="./static/images/logo.png" alt="DeepMirror Logo" class="header__logo">
+                </a>
+            </div>
+            
+            <nav class="header__nav">
+                <a href="{{url_for('detect')}}" class="header__nav-link">Deepfake Detection</a>
+                <a href="{{url_for('generate')}}" class="header__nav-link">Deepfake Generation</a>
+            </nav>
+        </div>
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
