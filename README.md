@@ -8,13 +8,14 @@ This project is a web application built with Flask that enables users to detect 
 ## Project Demonstration Video
 
 <div align="center">
-    <a href="https://www.youtube.com/watch?v=Oba0Pa_w8vY">
+    <a href="https://youtu.be/Ig2rViUuDlQ?si=VTpBIFeUF5cZzXpx">
     </a>
 </div>
 
-[![Watch the video](https://img.youtube.com/vi/Oba0Pa_w8vY/maxresdefault.jpg)](https://www.youtube.com/watch?v=Oba0Pa_w8vY)
+[![Watch the video](https://img.youtube.com/vi/Ig2rViUuDlQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=Ig2rViUuDlQ)
 
 **Click on the image above to watch the project demonstration video on YouTube**
+
 
 ---
 ## Features
@@ -111,9 +112,9 @@ Found a bug or have a suggestion?
 
 ## Credits
 
-* **Deepfake Detection Model Creation:** monsieurfnw@gmail.com
-* **Web UX/UI & Model Deployment:** lephanquynhnhi1011@gmail.com
-* **Deepfake Generation Model Deployment:** nguyenvinhnghi@gmail.com
+* **Deepfake Detection Model Creation:** [MonsieurNam](https://github.com/MonsieurNam) (monsieurfnw@gmail.com)
+* **Web UX/UI & Model Deployment:** [nhi-nhi-nhi](https://github.com/nhi-nhi-nhi) (lephanquynhnhi1011@gmail.com)
+* **Deepfake Generation Model Deployment:** [Winter24](https://github.com/Winter24) (nguyenvinhnghi.1234@gmail.com)
 
 ## Acknowledgments
 
