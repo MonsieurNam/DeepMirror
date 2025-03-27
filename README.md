@@ -136,18 +136,4 @@ The creators of this project are not liable for any misuse of this technology. U
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-## Requirements File (requirements.txt)
-
-```
-flask==2.1.0
-torch==1.10.0
-torchvision==0.11.0
-opencv-python==4.5.4.60
-mediapipe==0.8.9
-insightface==0.4.7
-numpy==1.21.3
-scipy==1.7.1
-matplotlib==3.4.3
-```
-
 **Note:** Exact versions may vary. Always check for the latest compatible versions.
