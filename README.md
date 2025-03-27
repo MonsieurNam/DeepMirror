@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a web application built with Flask that enables users to detect and generate deepfakes using machine learning models. It provides an intuitive interface for analyzing videos or webcam feeds to identify manipulated content and creating deepfake images through face swapping.
+This project is a web application built with Flask that enables users to detect and generate deepfakes using Deep learning models. It provides an intuitive interface for analyzing videos or webcam feeds to identify manipulated content and creating deepfake images through face swapping.
 
 #### Deepfake Detection
 ![alt text](app/static/images/demo_detect.jpg)
