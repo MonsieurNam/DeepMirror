@@ -114,7 +114,7 @@ Found a bug or have a suggestion?
 
 * **Deepfake Detection Model Creation:** monsieurfnw@gmail.com
 * **Web UX/UI & Model Deployment:** lephanquynhnhi1011@gmail.com
-* **Deepfake Generation Model Deployment:** nguyenvinhnghi@gmail.com
+* **Deepfake Generation Model Deployment:** nguyenvinhnghi.1234@gmail.com
 
 ## Acknowledgments
 
