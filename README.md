@@ -31,7 +31,7 @@ This project is a web application built with Flask that enables users to detect 
 
 ## Prerequisites
 
-* Python 3.6 or higher
+* Python 3.12
 * CUDA (optional, for GPU acceleration)
 
 ## Installation
@@ -116,9 +116,9 @@ Found a bug or have a suggestion?
 
 ## Credits
 
-* **Model Creator:** monsieurfnw@gmail.com
-* **Main Repository and Web Creator:** lephanquynhnhi1011@gmail.com
-* **Web Developer:** nguyenvinhnghi@gmail.com
+* **Deepfake Detection Model Creation:** monsieurfnw@gmail.com
+* **Web UX/UI & Model Deployment:** lephanquynhnhi1011@gmail.com
+* **Deepfake Generation Model Deployment:** nguyenvinhnghi@gmail.com
 
 ## Acknowledgments
 
