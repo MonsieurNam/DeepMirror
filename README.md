@@ -112,9 +112,9 @@ Found a bug or have a suggestion?
 
 ## Credits
 
-* **Deepfake Detection Model Creation:** monsieurfnw@gmail.com
-* **Web UX/UI & Model Deployment:** lephanquynhnhi1011@gmail.com
-* **Deepfake Generation Model Deployment:** nguyenvinhnghi.1234@gmail.com
+* **Deepfake Detection Model Creation:** [MonsieurNam](https://github.com/MonsieurNam) (monsieurfnw@gmail.com)
+* **Web UX/UI & Model Deployment:** [nhi-nhi-nhi](https://github.com/nhi-nhi-nhi) (lephanquynhnhi1011@gmail.com)
+* **Deepfake Generation Model Deployment:** [Winter24](https://github.com/Winter24) (nguyenvinhnghi.1234@gmail.com)
 
 ## Acknowledgments
 
