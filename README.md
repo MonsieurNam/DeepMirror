@@ -8,7 +8,7 @@ This project is a web application built with Flask that enables users to detect 
 ## Project Demonstration Video
 
 <div align="center">
-    <a href="https://www.youtube.com/watch?v=Oba0Pa_w8vY">
+    <a href="https://youtu.be/Ig2rViUuDlQ?si=VTpBIFeUF5cZzXpx">
     </a>
 </div>
 
