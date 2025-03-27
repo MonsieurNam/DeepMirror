@@ -19,7 +19,7 @@ This project is a web application built with Flask that enables users to detect 
 
 ## Prerequisites
 
-* Python 3.6 or higher
+* Python 3.12
 * CUDA (optional, for GPU acceleration)
 
 ## Installation
