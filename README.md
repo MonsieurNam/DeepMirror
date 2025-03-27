@@ -12,9 +12,10 @@ This project is a web application built with Flask that enables users to detect 
     </a>
 </div>
 
-[![Watch the video](https://img.youtube.com/vi/Oba0Pa_w8vY/maxresdefault.jpg)](https://www.youtube.com/watch?v=Oba0Pa_w8vY)
+[![Watch the video](https://img.youtube.com/vi/Ig2rViUuDlQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=Ig2rViUuDlQ)
 
 **Click on the image above to watch the project demonstration video on YouTube**
+
 
 ---
 ## Features
